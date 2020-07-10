@@ -44,6 +44,7 @@ def perform_inference_image(image_path, model, colors, classes, draw_bbox, mrcnn
 
     output = custom_visualize(test_image, model, colors, classes, draw_bbox, mrcnn_visualize)
 
+    cv2.imwrite("result.png", output)
     cv2.imshow("Output", output)
     cv2.waitKey()
     cv2.destroyAllWindows()
