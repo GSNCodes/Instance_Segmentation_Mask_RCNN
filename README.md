@@ -1,5 +1,11 @@
 # Instance_Segmentation_Mask_RCNN
-To perform instance segmentation using Mask R-CNN and Python 
+To perform instance segmentation using Mask R-CNN and Python
+
+## Overview
+I'll be using the Mask R-CNN architecture to perform instance segmentation on images, video and live web-cam feed.
+The Mask R-CNN architecture is an extension of the Faster R-CNN architecture. It uses ResNet101 as backbone(It also supports ResNet50).  
+
+<img src ='my_images/test_image_1.jpg' width = 200> <img src ='my_images/result_1.png' width = 200>
 
 ## Arguments
 ```
@@ -27,6 +33,12 @@ To perform instance segmentation using Mask R-CNN and Python
 
 The program by default looks for the model in the `models` folder and specifically for the `mask_rcnn_coco.h5` file.
 
-## Note
+## Sample Outputs
+<img src ='my_images/test_image_3.jpg' width = 400> <img src ='my_images/result_3.png' width = 400>  
+<img src ='my_images/test_image_4.jpg' width = 400> <img src ='my_images/result_4.png' width = 400>  
+<img src ='my_images/test_image_5.jpg' width = 400> <img src ='my_images/result_5.png' width = 400>
+<img src ='my_images/test_image_6.jpg' width = 400> <img src ='my_images/result_6.png' width = 400>
+
+## Notes
 * Do note that the code for Mask R-CNN was obtained from Matterport's [repository](https://github.com/matterport/Mask_RCNN).
 * For more details regarding the Mask RCNN implementation visit the link given or read the MRCNN_README file. The files mask.py, mask_colab.py and Mask_On_Colab.ipynb, models, my_images are mine. 
