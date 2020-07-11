@@ -34,10 +34,10 @@ The Mask R-CNN architecture is an extension of the Faster R-CNN architecture. It
 The program by default looks for the model in the `models` folder and specifically for the `mask_rcnn_coco.h5` file.
 
 ## Sample Outputs
-<img src ='my_images/test_image_3.jpg' width = 400> <img src ='my_images/result_3.png' width = 400>  
-<img src ='my_images/test_image_4.jpg' width = 400> <img src ='my_images/result_4.png' width = 400>  
-<img src ='my_images/test_image_5.jpg' width = 400> <img src ='my_images/result_5.png' width = 400>
-<img src ='my_images/test_image_6.jpg' width = 400> <img src ='my_images/result_6.png' width = 400>
+<img src ='my_images/test_image_3.jpg' width = 350> <img src ='my_images/result_3.png' width = 350>  
+<img src ='my_images/test_image_4.jpg' width = 350> <img src ='my_images/result_4.png' width = 350>  
+<img src ='my_images/test_image_5.jpg' width = 350> <img src ='my_images/result_5.png' width = 350>
+<img src ='my_images/test_image_6.jpg' width = 350> <img src ='my_images/result_6.png' width = 350>
 
 ## Notes
 * Do note that the code for Mask R-CNN was obtained from Matterport's [repository](https://github.com/matterport/Mask_RCNN).
