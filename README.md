@@ -22,10 +22,10 @@ The Mask R-CNN architecture is an extension of the Faster R-CNN architecture. It
 ```
 
 ## Usage
-* For testing on images 
+* For testing on images  
 `python mask.py --image <path to image>  --save_enable True/False --model_path <path to the model directory> --model_name <name of the model> --class_names <path to the class labels file>`
 
-* For testing on videos
+* For testing on videos  
 `python mask.py --video <path to video file> --save_enable True/False --model_path <path to the model directory> --model_name <name of the model> --class_names <path to the class labels file>`
 
 * For testing on web-cam feed  
