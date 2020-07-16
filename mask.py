@@ -79,7 +79,7 @@ def custom_visualize(test_image, model, colors, classes, draw_bbox, mrcnn_visual
 
     test_image = cv2.cvtColor(test_image, cv2.COLOR_RGB2BGR)
 
-    if draw_bbox:
+    if draw_bbox == 'True':
         for i in range(0, len(detections["scores"])):
             (startY, startX, endY, endX) = detections["rois"][i]
 
