@@ -5,6 +5,8 @@ To perform instance segmentation using Mask R-CNN and Python
 I'll be using the Mask R-CNN architecture to perform instance segmentation on images, video and live web-cam feed.
 The Mask R-CNN architecture is an extension of the Faster R-CNN architecture. It uses ResNet101 as backbone(It also supports ResNet50).  
 
+You can find more details about the working and functionality of the code from my article given [here](https://towardsdatascience.com/image-segmentation-using-mask-r-cnn-8067560ed773).
+
 <img src ='my_images/test_image_1.jpg' width = 200> <img src ='my_images/result_1.png' width = 200>
 
 ## Arguments
